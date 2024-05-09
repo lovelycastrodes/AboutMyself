@@ -1,19 +1,41 @@
+
+
 header{
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: auto;
-    margin: 5px;
-    color: white;
-    background: lightskyblue;
+   margin: 0;
+   border: 1px solid slateblue;
+   border-radius: 5px;
+   margin-bottom: 3px;
+    
+}
+header h1{
+   text-align: center;
+  color: teal;
 }
 .list{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.navi li {
+    float: left;
+    margin-left: 75px;
+}
+
+li a {
+    display: block;
+    padding: 5px;
+    background-color: rgb(19, 71, 114, 0.4);
+    cursor:pointer;
+    text-decoration: none;
+    
 }
 
  a:link{
 
-color: white;
+color: slateblue;
 }
 
 a:visited
@@ -21,15 +43,79 @@ a:visited
 color: blue;
 }
 
-a:hover
+a:hover , a:focus
 {
-color: orange;
+color: rgb(8, 17, 102);
 }
 
 a:active
 {
-color: green;
+color: rgb(10, 8, 163);
+}
+.art1 h2{
+    text-align: center;
+    color: rgb(8, 60, 139);
+    padding: 10px;
 
 }
+.art1 figure{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
 
+.art1 {
+    
+    margin-top: 3px;
+    border-radius: 5px;
+   
+}
 
+.art2 h2{
+    text-align: center;
+    color: mediumblue;
+}
+
+.art2{
+    border: 1px solid;
+    margin-top: 20px;
+}   
+
+.art2 h3{
+   margin: 5px;
+   padding: 5px;
+   color: rgb(53, 53, 53);
+   font-weight: 600;
+   text-decoration: underline;
+   background-color: rgb(134, 134, 224);
+   border: 1px solid;
+   width: 150px;
+}
+.art2 section{
+    margin-left: 5px;
+    
+}
+
+.hobby{
+ margin-top: 5px;
+padding: 5px    ;
+border: 1px solid;
+border-radius: 5px;
+text-align:center;
+}
+
+.favorite {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    display: block;
+}
+
+.color{
+    list-style: circle;
+    
+    background-color: #111;
+    color: white;
+
+}
